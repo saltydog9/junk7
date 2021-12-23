@@ -1,0 +1,95 @@
+ body{
+     margin:0;
+     padding:0;
+     background-color: rgb(103, 184, 103);
+     background-blend-mode: multiply;
+     background-image: url("/zzzimages/star.jpg")
+    }
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 130px;
+    grid-gap:10px;
+}
+.container > div {
+    border-radius: 10px;
+     box-sizing: border-box;
+     background-color: darkblue;
+    
+
+}
+#b10 {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+    overflow: auto;
+}
+#b10 > div {
+    width: 480px;
+    height: 220px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+ 
+    }
+    #bo1{
+        grid-column: 1/3;
+        grid-row:1/3;
+    }
+    #b10{
+        grid-column:1/3;
+        grid-row:3/5
+    }
+    img{
+        margin:0 0 0 20px;
+        width: 480px;
+        height: 220px;
+        border-radius: 10px;
+
+    }
+    .but{
+        width: 80px;
+        height: 40px;
+        box-sizing: border-box;
+        background:linear-gradient(to top,rgb(83, 47, 47),rgb(97, 27, 27));
+        color: white;
+        margin:0 0 1px 0;
+        padding: 0;
+        border-radius: 10px;
+
+    }
+    #inp1{
+        width: 80px;
+        height: 40px;
+        box-sizing: border-box;
+        background:linear-gradient(to top,rgb(83, 47, 47),rgb(97, 27, 27));
+        color: white;
+        margin:0;
+        padding: 0;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .ox2{
+        font-size: 80px;
+        color:white;
+        text-align:center;
+    }
+    .ox3 {
+        color: white;
+        text-align: left;
+        font-size: 20px;
+        overflow: auto;
+    }
+    .container1{
+        display:inline-block;
+    }
+    .container2{
+        display: none;
+    }
+    .container1:hover .container2 {
+        display: block;
+    }
+    .container1:hover .ut1{
+        display:none;
+    }
+
